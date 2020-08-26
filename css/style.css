@@ -3,6 +3,7 @@ body {
     font-family: Domine, georgia, "times new roman", times, serif;
     color: #333;
     background-color: white;
+    line-height: 1;
 }
 
 nav {
@@ -43,13 +44,15 @@ nav {
     align-items: center;
 }
 
-a {
+h3 a,
+h4 a {
     text-decoration: none;
+    color: black;
 }
 
 .nav-right>input {
     margin-right: 10px;
-    color: black;
+    background-color: ;
 }
 
 .nav-left>a {
@@ -60,16 +63,77 @@ a {
 }
 
 main {
-    margin-top: 50px;
-    text-align: left;
+    margin-top: 150px;
 }
 
+h1 {
+    position: relative;
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 3rem;
+    font-style: italic;
+    color: #121212;
+    max-width: 600px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 
-/*
+}
+
+.header figure {
+    width: 70%;
+    margin-left: 15%;
+}
+
+figcaption {
+    font-size : 0.9rem;
+    line-height: 1.2rem;
+    width: 80%;
+    color: #666;
+}
+
+figcaption span {
+    color: #888;
+    font-size: 0.8rem;
+}
+
 .foreword,
 .spirals {
     width: 40%;
-    margin-left: 30%;
+    margin: 3% 0 0 30%;
+    
 }
 
-*/
+.foreword>article>h3>a {
+   text-decoration: underline;
+}
+
+.foreword>article>h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+ }
+
+.foreword>article>h3>a:hover {
+   text-decoration: none;
+}
+
+.link ul li {
+  list-style: none;
+  display: inline;
+  margin-left: -8%;
+  font-size: 13px;
+}
+
+.link>ul>li:nth-child(2) {
+   float: right;
+   color: black;
+    
+}
+
+div.link {
+    margin-bottom: 30px;
+}
+
+
+
+
