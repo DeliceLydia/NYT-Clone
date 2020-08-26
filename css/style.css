@@ -47,6 +47,13 @@ nav {
 
 .nav-right>input {
     margin-right: 10px;
+    border: 1px solid rgb(50, 104, 145);
+    background-color: rgb(50, 104, 145);
+    border-radius: 3px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 1.5rem;
+    padding: 3px 5px;
 }
 
 .nav-left>a {
@@ -260,32 +267,35 @@ b {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-
-}
 .arial {
     font-size: 14px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Video section */
+
 .stanford-video {
     margin: auto;
 }
+
 .telescope-image {
     padding-top: 30px;
     margin: auto;
 }
+
 .telescope-image figcaption {
     width: 90%;
 }
+
 .very-small-text>a {
     color: rgb(102, 102, 102);
 }
+
 .inline button {
     border: 1px solid rgb(50, 104, 145);
     background-color: rgb(50, 104, 145);
-    ;
     border-radius: 3px;
     color: white;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
