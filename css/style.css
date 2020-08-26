@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    font-family: Domine, georgia, "times new roman", times, serif;
+    font-family: georgia, "times new roman", times, serif;
     color: #333;
     background-color: white;
     line-height: 1;
@@ -31,6 +31,7 @@ nav {
 .nav-left>i,
 .nav-left>a {
     padding: 10px;
+    text-decoration: none;
 }
 
 .nav-left>i {
@@ -48,6 +49,11 @@ h3 a,
 h4 a {
     text-decoration: none;
     color: black;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px !important;
 }
 
 .nav-right>input {
@@ -76,8 +82,12 @@ h1 {
     max-width: 600px;
     width: calc(100% - 40px);
     margin: 0 auto;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
 
+p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    width: 100%;
 }
 
 .header figure {
@@ -86,7 +96,7 @@ h1 {
 }
 
 figcaption {
-    font-size : 0.9rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
     width: 80%;
     color: #666;
@@ -99,41 +109,86 @@ figcaption span {
 
 .foreword,
 .spirals {
-    width: 40%;
+    width: 600px;
     margin: 3% 0 0 30%;
-    
 }
 
 .foreword>article>h3>a {
-   text-decoration: underline;
+    text-decoration: underline;
 }
 
 .foreword>article>h3 {
     font-size: 14px;
     margin-bottom: 30px;
- }
+}
 
-.foreword>article>h3>a:hover {
-   text-decoration: none;
+
+/* Remove Underline links Hover */
+
+.foreword>article>h3>a:hover,
+p>a:hover {
+    text-decoration: none;
+}
+
+
+/* Underline on hover */
+
+.nav-left>a:hover {
+    text-decoration: underline;
 }
 
 .link ul li {
-  list-style: none;
-  display: inline;
-  margin-left: -8%;
-  font-size: 13px;
+    list-style: none;
+    display: inline;
+    margin-left: -8%;
+    font-size: 13px;
 }
 
 .link>ul>li:nth-child(2) {
-   float: right;
-   color: black;
-    
+    float: right;
+    color: black;
 }
 
 div.link {
     margin-bottom: 30px;
 }
 
+.fab,
+.fas,
+.fas,
+.far,
+.far {
+    color: black;
+    margin-right: 12px
+}
 
+.fa-2x {
+    color: #999;
+}
 
+.icon-cicle {
+    background: silver;
+    padding: 5px;
+    border-radius: 50%;
+}
 
+.thanks {
+    text-align: center;
+    line-height: 2px;
+    font-size: 14px;
+    margin: 30px 0 30px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.thanks>hr {
+    width: 70px;
+    color: rgba(211, 211, 211, 0.3);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.thanks h4 a {
+    color: rgb(50, 104, 145);
+    font-size: 15px;
+}
