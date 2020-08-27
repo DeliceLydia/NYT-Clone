@@ -53,12 +53,11 @@ h4 a {
 
 h3 {
     font-weight: 700;
-    font-size: 20px !important;
+    font-size: 1.25rem !important;
 }
 
 .nav-right>input {
     margin-right: 10px;
-    background-color: ;
 }
 
 .nav-left>a {
@@ -90,6 +89,10 @@ p {
     width: 100%;
 }
 
+p a {
+    color: #326891;
+}
+
 .header figure {
     width: 70%;
     margin-left: 15%;
@@ -110,7 +113,8 @@ figcaption span {
 .foreword,
 .spirals {
     width: 600px;
-    margin: 3% 0 0 30%;
+    margin: auto;
+
 }
 
 .foreword>article>h3>a {
@@ -192,3 +196,58 @@ div.link {
     color: rgb(50, 104, 145);
     font-size: 15px;
 }
+
+/* inflation section */
+
+.inflation {
+   width: 720px; 
+   margin-left: 15%;
+   margin-top: 35px;
+}
+
+.inflation h3{
+    margin-bottom: -10px;
+}
+
+ .theory-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    gap: 30px;
+  }
+b {
+    font-size: 12px;
+    line-height: 17px;
+}
+.inflation-div p {
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inflation-div img {
+    height: 170px;
+    width: 220px;
+    margin-bottom: -20px;
+}
+
+.inflation hr{
+    margin-left: 0px;
+    width: 100px;
+}
+
+.small-text {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #666;
+    font-weight: 400;
+    width: 100%;
+}
+ 
+.arial {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+} 
