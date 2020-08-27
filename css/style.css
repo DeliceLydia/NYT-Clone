@@ -251,3 +251,18 @@ b {
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 } 
+
+/* Video section */
+
+.stanford-video {
+    margin: auto;   
+}
+
+.telescope-image {
+   padding-top: 30px;
+   margin: auto;
+}
+
+.telescope-image figcaption {
+    width: 90%;
+}
