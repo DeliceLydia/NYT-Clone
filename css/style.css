@@ -310,6 +310,7 @@ b {
     width: 50%;
 }
 
+
 /* thumbnail section */
 
 .more-articles {
@@ -328,7 +329,7 @@ b {
 .space {
     margin-top: -20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 2fr); 
+    grid-template-rows: repeat(2, 2fr);
 }
 
 .editors-picks {
@@ -350,7 +351,6 @@ b {
 .thumbnails figure {
     width: 280px;
     margin-left: 0px;
-    
 }
 
 .thumbnails img {
@@ -369,6 +369,7 @@ b {
     width: 70%;
     margin-top: -5px;
 }
+
 
 /* aside elements */
 
@@ -396,5 +397,130 @@ aside {
 .popular ul li a {
     text-decoration: none;
     color: rgb(18, 18, 18);
-    
+}
+
+
+/*   footer   */
+
+footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr:first-of-type {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+}
+
+footer div.new-york-logo-footer {
+    display: inline;
+}
+
+footer>.new-york-logo-footer>.right {
+    float: right;
+    color: rgb(86, 123, 149);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+footer div .right>i {
+    color: rgb(86, 123, 149);
+    font-size: 8px;
+}
+
+footer .new-york-logo-footer img {
+    height: 24px;
+    width: 184px;
+}
+
+footer>ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+}
+
+footer ul,
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    margin-left: -30px;
+}
+
+footer>ul>li>ul>li {
+    padding-top: 4px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+}
+
+footer>ul>li>ul>li:nth-child(2) {
+    padding-top: 14px;
+}
+
+footer>ul>li>ul>lh {
+    font-weight: 700;
+    height: 23px;
+    line-height: 16px;
+}
+
+footer>ul>li {
+    width: 150px;
+}
+
+.footer-bold {
+    font-weight: 600;
+    width: 200px;
+}
+
+.border-top {
+    border-top: 1px solid rgb(226, 226, 226);
+    padding-top: 15px;
+}
+
+.footer-bottom-links>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom-links {
+    margin-bottom: 50px;
+}
+
+.footer-bottom-links>ul>li>a {
+    font-size: 11px;
+    color: #666;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    padding: 10px 8px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-left: -100px;
+    margin-right: 70px;
 }
