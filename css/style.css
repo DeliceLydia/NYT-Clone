@@ -74,6 +74,12 @@ h3 {
     font-size: 1.25rem !important;
 }
 
+.foreword-title {
+    font-size: 14px !important;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
 main {
     margin-top: 150px;
 }
@@ -106,9 +112,10 @@ p a {
 }
 
 figcaption {
+    margin-top: 7px;
     font-size: 0.9rem;
     line-height: 1.2rem;
-    width: 80%;
+    width: 76%;
     color: #666;
 }
 
@@ -125,11 +132,6 @@ figcaption span {
 
 .foreword>article>h3>a {
     text-decoration: underline;
-}
-
-.foreword>article>h3 {
-    font-size: 14px;
-    margin-bottom: 30px;
 }
 
 
