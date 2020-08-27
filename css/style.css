@@ -293,6 +293,7 @@ b {
 
 .very-small-text>a {
     color: rgb(102, 102, 102);
+    text-decoration: none;
 }
 
 .inline button {
@@ -307,4 +308,93 @@ b {
     line-height: 1.5rem;
     padding: 5px 0px;
     width: 50%;
+}
+
+/* thumbnail section */
+
+.more-articles {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.space,
+.editors-picks {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.space {
+    margin-top: -20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr); 
+}
+
+.editors-picks {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+}
+
+.thumbnails {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.thumbnails p {
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: left;
+}
+
+.thumbnails figure {
+    width: 280px;
+    margin-left: 0px;
+    
+}
+
+.thumbnails img {
+    width: 96%;
+    height: auto;
+}
+
+.thumbnails .very-small-text {
+    font-family: georgia, "times new roman";
+    font-size: 10px;
+    margin-top: 3px;
+    line-height: 1rem;
+}
+
+.footer-thumbnails {
+    width: 70%;
+    margin-top: -5px;
+}
+
+/* aside elements */
+
+aside {
+    width: 28%;
+    float: right;
+}
+
+.popular {
+    margin-top: -8px;
+}
+
+.popular ul li {
+    list-style: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    margin-top: 15px;
+    margin-left: -40px;
+    padding-top: 20.3px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.thumbnails p a,
+.popular ul li a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    
 }
