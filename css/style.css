@@ -409,6 +409,7 @@ aside {
     display: flex;
     justify-content: center;
 }
+
    
 .main-aside img {
     width: 80px;
@@ -507,11 +508,7 @@ footer>ul>li>ul>li {
     line-height: 16px;
 }
 
-footer>ul>li>ul>li:nth-child(2) {
-    padding-top: 14px;
-}
-
-footer>ul>li>ul>lh {
+footer>ul>li>ul>.lh {
     font-weight: 700;
     height: 23px;
     line-height: 16px;
