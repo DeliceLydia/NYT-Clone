@@ -393,6 +393,42 @@ aside {
     border-top: 1px solid rgb(226, 226, 226);
 }
 
+/* main-aside */
+
+.main-aside {
+    width: 30%;
+    margin-top: 250px;
+}
+
+.main-aside h4 {
+    margin-left: 75px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.main-aside-section {
+    display: flex;
+    justify-content: center;
+}
+   
+.main-aside img {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.main-aside-section a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 530;
+    color: rgb(18, 18, 18);
+    width: 40%;
+    margin-left: 10px;
+    
+}
+.main-aside-section a:hover {
+    text-decoration: underline;
+}
+
 .thumbnails p a,
 .popular ul li a {
     text-decoration: none;
