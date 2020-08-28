@@ -77,7 +77,8 @@ p {
   padding: 3px 5px;
 }
 
-footer a {
+.footer a,
+.more-articles a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -158,26 +159,41 @@ figcaption span {
   font-size: 15px;
 }
 
-p > a:hover,
-p > .very-small-text > a .foreword > h3 > a:hover {
+.footer-bottom-links > ul > li > a {
+  font-size: 11px;
+  color: #666;
+  font-family: helvetica, arial, sans-serif;
+  padding: 10px 8px;
   text-decoration: none;
 }
 
-.nav-left > a:hover {
-  text-decoration: underline;
-}
-
-.thumbnails p a,
-.popular ul li a {
-  text-decoration: none;
-  color: rgb(18, 18, 18);
-}
-
+.footer a:hover,
+.more-articles a:hover,
+.nav-left > a:hover,
 .main-aside-section a:hover {
   text-decoration: underline;
 }
 
 /* Underline on hover */
+
+footer ul,
+footer li {
+  list-style: none;
+}
+
+footer > ul > li {
+  width: 150px;
+  list-style-type: none;
+}
+
+footer > ul > li > ul > li {
+  padding-top: 4px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
 
 .link ul li,
 .inline {
@@ -436,10 +452,6 @@ footer {
   margin-right: 70px;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 footer hr:first-of-type {
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
@@ -476,32 +488,14 @@ footer > ul {
   grid-template-rows: repeat(1, 2fr);
 }
 
-footer ul,
-footer li {
-  list-style-type: none;
-}
-
 footer ul {
   margin-left: -30px;
-}
-
-footer > ul > li > ul > li {
-  padding-top: 4px;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
 }
 
 footer > ul > li > ul > .lh {
   font-weight: 700;
   height: 23px;
   line-height: 16px;
-}
-
-footer > ul > li {
-  width: 150px;
 }
 
 .footer-bold {
@@ -521,13 +515,6 @@ footer > ul > li {
 
 .footer-bottom-links {
   margin-bottom: 50px;
-}
-
-.footer-bottom-links > ul > li > a {
-  font-size: 11px;
-  color: #666;
-  font-family: helvetica, arial, sans-serif;
-  padding: 10px 8px;
 }
 
 .footer-bottom {
