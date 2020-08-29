@@ -1,29 +1,30 @@
 # NYT-Clone
 
-
 > This project consists of building an HTML document that matches the appearance of New york times [Article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
 
 ![screenshot](./images/Times.PNG)
 
-
 ## Project Requirements
-- The project is meant to demonstrate 
-- position and floating of elements.
+
+- The project is meant to demonstrate
+- Position and floating of elements.
 - The box model
 - Working with forms (buttons in this case)
 - Embedding images
 
 ### Images
+
 - It has embedded Images placed on articles
 - It has thumbnails
 - Images have caption or Links providing a short description
 
+### Video
 
-### Video 
 - It has an embedded Video and is able to play.
-- The video has a caption 
+- The video has a caption
 
-### Sidebar 
+### Sidebar
+
 - Has two sidebars
 
 ## Built With
